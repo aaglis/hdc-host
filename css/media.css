@@ -1,0 +1,73 @@
+@media screen and (max-width: 1100px) {
+  .plans-container {
+    width: 95%;
+  }
+
+  .plan {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-banner p {
+    padding: 0 6rem;
+  }
+
+  .search-domain-container {
+    padding: 5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .main-banner p {
+    padding: 0 2rem;
+  }
+
+  .services-container ul {
+    flex-direction: column;
+  }
+
+  .navbar-items li {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .pricing-container p {
+    padding: 0 3rem;
+  }
+
+  .plans-container {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 2rem;
+  }
+  
+  .plan {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .search-domain-container h2 {
+    font-size: 28px;
+  }
+
+  .search-domain-container p {
+    font-size: 20px;
+  }
+
+  .search-domain-container input[type="text"] {
+    width: 100%;
+  }
+
+  .contact-container {
+    padding: 3rem 2rem;
+  }
+
+  .contact-container input,
+  .contact-container textarea {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
